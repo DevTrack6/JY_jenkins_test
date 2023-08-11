@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('Run') {
-      steps {
-        echo 'hello run'
-      }
-    }
-
   }
 }
